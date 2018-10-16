@@ -1,2 +1,76 @@
-languages to index
-oneperline
+Bangime
+Wolaitta
+Biak
+Creek
+Tojolabal Maya
+Evenki
+Ngandi
+Matsigenka
+Alto Urubamba
+Spanish
+Korowai
+Mandobo
+Bezhta
+Hunzib
+Khwarshi
+Hinuq
+Tsez
+Tsezic
+Lak
+Chirag Dargwa
+Agul
+Chechen
+Tsova-Tush
+Nakh-Daghestanian
+Oceanic
+Arawak
+Kampan
+Bantu
+Swahili
+Eibela
+Nungon
+Logoori
+Nahavaq
+Siroi
+Cavineña
+Jingulu 
+Ese Ejja
+Eastern Tucanoan
+Quechua
+Nanti
+Caquinte
+Mavea
+White Hmong
+Rembarrnga
+Ngandi
+Tirax
+Nabak
+Lolovoli
+Sunwar
+Ono
+Wambon
+Paluai
+Yurakaré
+Ma Manda
+Timbe
+Tariana
+Aguaruna
+Yongkom
+Kokota
+English
+Greek
+Manambu
+Dani
+Murui
+Iatmul
+Kasu
+Angave
+Tuvalu
+Bora
+Kombai
+Erromangan
+Abma
+Manam
+Sobei
+Kaulong
+Roviana

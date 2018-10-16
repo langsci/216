@@ -1,32 +1,19 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%     Language Science Press Master File       %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                              %%%
-%%%     Language Science Press Master File       %%%
-%%%              edited volumes                  %%%
-%%%         follow the instructions below        %%% 
-%%%                                              %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
-% Everything following a % is ignored
-% Some lines start with %. Remove the % to include them
-
+  
 \documentclass[output=book,modfonts,nonflat
 	        ,collection
 	        ,collectionchapter
 	        ,colorlinks,citecolor=brown
+	        ,showindex
 		  ]{langsci/langscibook}                               
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% put all additional commands you need in the 
-% following files. If you do not know what this might 
-% mean, you can safely ignore this section
-
+  
 %VALERIE: I had uniqueness name issue with Emlen. This was coming from the 
 %sp-authoryear-comp.cbx file. I changed uniquename=minfull to uniquename=false.
 %\ExecuteBibliographyOptions{uniquename=false,uniquelist=minyear,autocite=inline}
-
-
-
-
+ 
 \input{localmetadata.tex}
 \input{localpackages.tex}
 \input{localhyphenation.tex}
@@ -35,10 +22,8 @@
 %\bibliography{localbibliography}
 \bibliography{guerin-bridging}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                              %%%
-%%%             Frontmatter                      %%%
-%%%                                              %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Frontmatter                      %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}         
 \maketitle                
@@ -53,10 +38,8 @@
 
 \mainmatter          
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                              %%%
-%%%             Chapters                         %%%
-%%%                                              %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Chapters                         %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
 \includepaper{chapters/01Guerin-Aiton}
@@ -67,16 +50,13 @@
 \includepaper{chapters/06Aiton} 
 \includepaper{chapters/07Devries} 
 \includepaper{chapters/08Guerin} 
-\includepaper{chapters/09Alvanoudi} 
-% copy the lines above and adapt as necessary
+\includepaper{chapters/09Alvanoudi}  
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Backmatter                       %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                              %%%
-%%%             Backmatter                       %%%
-%%%                                              %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% There is normally no need to change the backmatter section
+\sloppy 
+\include{localseealso}
 \input{backmatter.tex}
 
 \end{document} 
