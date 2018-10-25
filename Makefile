@@ -43,6 +43,8 @@ main.snd: main.bbl
 	sed -i 's/Language contact/language contact/' main.sdx
 	sed -i 's/anaphoric verb/anaphoric verb\/predicate/' main.sdx
 	sed -i 's/anaphoric predicate/anaphoric verb\/predicate/' main.sdx
+	sed -i 's/main event line/event line/' main.sdx
+	sed -i 's/procedural texts/procedural text/' main.sdx 
 	python3 fixindex.py
 	mv mainmod.adx main.adx
 	makeindex -o main.and main.adx
