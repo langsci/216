@@ -68,7 +68,7 @@
     \ifnum\value{equation}>98 \exewidth{(235)}\else\fi%
     \@ifnextchar [{\@appendixexe}{\@appendixexe[\@exwidth]}}
 \let\@appendixexe\@exe
-\patchcmd\@appendixexe{(\thexnumi)}{(A\thexnumi)}{}{} % Altering of Linguistic Examples (n) -> En.
+\patchcmd\@appendixexe{(\thexnumi)}{(A\thexnumi)}{}{} % Altering of Linguistic Examples (n) -> (An).
 \def\endappendixexe{\if@noftnote\setcounter{equation}{\value{xnumi}}%
                    \else\setcounter{fnx}{\value{xnumi}}%
                         \reset@counters\@xrecfalse\fi\end{list}}
