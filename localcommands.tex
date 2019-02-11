@@ -62,3 +62,14 @@
 
 \newcommand{\aREF}[1]{(A\ref{#1})}
 \newcommand*{\mailtolink}[1]{\href{mailto:#1}{<#1>}}
+
+\makeatletter
+\def\appendixexe{%
+    \ifnum\value{equation}>98 \exewidth{(235)}\else\fi%
+    \@ifnextchar [{\@appendixexe}{\@appendixexe[\@exwidth]}}
+\let\@appendixexe\@exe
+\patchcmd\@appendixexe{(\thexnumi)}{(A\thexnumi)}{}{} % Altering of Linguistic Examples (n) -> En.
+\def\endappendixexe{\if@noftnote\setcounter{equation}{\value{xnumi}}%
+                   \else\setcounter{fnx}{\value{xnumi}}%
+                        \reset@counters\@xrecfalse\fi\end{list}}
+\makeatother
