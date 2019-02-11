@@ -12,6 +12,14 @@
 \usepackage{dcolumn}
 \newcolumntype{d}[1]{D{:}{:}{#1}}% For alignment at m:ss in 03Sarvasy.tex
  
+ \usepackage{siunitx}
+\sisetup{output-decimal-marker={.},detect-weight=true, detect-family=true, detect-all, input-symbols={\%}, free-standing-units, input-open-uncertainty= , input-close-uncertainty= ,table-align-text-pre=false,uncertainty-separator={\,},group-digits=false,detect-inline-weight=math}
+\DeclareSIUnit[number-unit-product={}]{\percent}{\%}
+\makeatletter \def\new@fontshape{} \makeatother
+\robustify\bfseries % For detect weight to work
+
+\usepackage{longtable}
+ 
 \usepackage{./langsci/styles/langsci-optional}
 \usepackage{./langsci/styles/langsci-gb4e}
 % \usepackage{langsci-lgr}
