@@ -33,11 +33,11 @@
 %\linenumbers
 
 \currentpdfbookmark{Contents}{name} % adds a PDF bookmark
+\apptocmd{\tableofcontents}{\largerpage[2]}{}{}
 \tableofcontents
-% %% uncomment if you have preface and/or acknowledgements
 
- \include{chapters/preface}
- \include{chapters/acknowledgments}
+\include{chapters/preface}
+\include{chapters/acknowledgments}
 
 \mainmatter          
 
